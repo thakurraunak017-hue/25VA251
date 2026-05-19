@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Class Routine</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#f5f5f5;
+            padding:20px;
+        }
+
+        .table{
+            text-align:center;
+            vertical-align:middle;
+            font-size:14px;
+        }
+
+        .table th,
+        .table td{
+            border:2px solid #000;
+            min-width:120px;
+            height:80px;
+        }
+
+        .head{
+            background:#e9ecef;
+            font-weight:bold;
+        }
+
+        .yellow{
+            background:#ffe44d;
+        }
+
+        .green{
+            background:#8be28b;
+        }
+
+        .blue{
+            background:#67c5ff;
+        }
+
+        .orange{
+            background:#ffb347;
+        }
+
+        .gray{
+            background:#d6d6d6;
+        }
+
+        .lunch{
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight:bold;
+            background:#f8f9fa;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <h2>Class Routine - CSE-BS-2</h2>
+
+    <div class="table-responsive">
+
+        <table class="table table-bordered">
+
+            <thead>
+                <tr class="head">
+                    <th>Day / Time</th>
+                    <th>I<br>08:50-09:40</th>
+                    <th>II<br>09:40-10:30</th>
+                    <th>III<br>10:40-11:30</th>
+                    <th>IV<br>11:30-12:20</th>
+                    <th>Lunch</th>
+                    <th>VI<br>01:10-02:00</th>
+                    <th>VII<br>02:00-02:50</th>
+                    <th>VIII<br>02:50-03:40</th>
+                    <th>IX<br>03:40-04:30</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- Monday -->
+                <tr>
+                    <th class="head">Monday</th>
+
+                    <td class="blue">
+                        24CS101<br>
+                        DBMS<br>
+                        RJ-307
+                    </td>
+
+                    <td class="yellow">
+                        25AS101<br>
+                        LAB<br>
+                        RJ-307
+                    </td>
+
+                    <td class="gray">
+                        25CS102<br>
+                        MME<br>
+                        RJ-307
+                    </td>
+
+                    <td class="gray">
+                        25CS102<br>
+                        MME<br>
+                        RJ-307
+                    </td>
+
+                    <td rowspan="5" class="lunch">
+                        LUNCH
+                    </td>
+
+                    <td class="green">
+                        25AS151<br>
+                        IM<br>
+                        KC-Block
+                    </td>
+
+                    <td class="green">
+                        25AS151<br>
+                        IM<br>
+                        KC-Block
+                    </td>
+
+                    <td class="orange">
+                        25AS102<br>
+                        THR<br>
+                        RJ-109
+                    </td>
+
+                    <td class="green">
+                        25AS101<br>
+                        DM<br>
+                        RJ-205
+                    </td>
+                </tr>
+
+                <!-- Tuesday -->
+                <tr>
+                    <th class="head">Tuesday</th>
+
+                    <td class="green">
+                        25AS101<br>
+                        DBMS<br>
+                        RJ-304
+                    </td>
+
+                    <td class="gray">
+                        24CS101<br>
+                        THR<br>
+                        RJ-302
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        RJ-304
+                    </td>
+
+                    <td class="gray">
+                        25CS101<br>
+                        OS<br>
+                        RJ-307
+                    </td>
+
+                    <td class="yellow">
+                        25AS101<br>
+                        SHA<br>
+                        RJ-307
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        RJ-307
+                    </td>
+
+                    <td class="orange">
+                        25ME152<br>
+                        DBMS LAB<br>
+                        Block-1
+                    </td>
+
+                    <td class="orange">
+                        Project<br>
+                        Lab
+                    </td>
+                </tr>
+
+                <!-- Wednesday -->
+                <tr>
+                    <th class="head">Wednesday</th>
+
+                    <td class="gray">
+                        25CS105<br>
+                        MME<br>
+                        KC-309
+                    </td>
+
+                    <td class="yellow">
+                        25AS101<br>
+                        SHA<br>
+                        RJ-109
+                    </td>
+
+                    <td class="green">
+                        25AS102<br>
+                        DBE<br>
+                        RJ-109
+                    </td>
+
+                    <td class="green">
+                        25AS102<br>
+                        DBE<br>
+                        RJ-109
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        RJ-205
+                    </td>
+
+                    <td class="green">
+                        25AS101<br>
+                        IM<br>
+                        RJ-205
+                    </td>
+
+                    <td class="gray">
+                        25CS101<br>
+                        OS<br>
+                        RJ-205
+                    </td>
+
+                    <td class="blue">
+                        Mentor<br>
+                        Meeting
+                    </td>
+                </tr>
+
+                <!-- Thursday -->
+                <tr>
+                    <th class="head">Thursday</th>
+
+                    <td class="gray">
+                        25VA151<br>
+                        NSS<br>
+                        KC-509
+                    </td>
+
+                    <td class="green">
+                        25AS101<br>
+                        IM<br>
+                        RJ-302
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        RJ-302
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        RJ-302
+                    </td>
+
+                    <td class="blue">
+                        25CS101<br>
+                        DBMS<br>
+                        RJ-106
+                    </td>
+
+                    <td class="gray">
+                        25CS101<br>
+                        MME<br>
+                        RJ-106
+                    </td>
+
+                    <td class="gray">
+                        25CS101<br>
+                        MME<br>
+                        RJ-106
+                    </td>
+
+                    <td class="blue">
+                        Mentor<br>
+                        Meeting
+                    </td>
+                </tr>
+
+                <!-- Friday -->
+                <tr>
+                    <th class="head">Friday</th>
+
+                    <td class="yellow">
+                        25AS101<br>
+                        SHA<br>
+                        RJ-305
+                    </td>
+
+                    <td class="green">
+                        25AS101<br>
+                        DM<br>
+                        RJ-306
+                    </td>
+
+                    <td class="blue">
+                        25CS101<br>
+                        DBMS<br>
+                        RJ-106
+                    </td>
+
+                    <td class="green">
+                        25AS101<br>
+                        IM<br>
+                        RJ-305
+                    </td>
+
+                    <td class="blue">
+                        25AS151<br>
+                        AI/ML<br>
+                        MJ-HARMONY
+                    </td>
+
+                    <td class="yellow">
+                        25AS102<br>
+                        LAB<br>
+                        KC-308
+                    </td>
+
+                    <td class="gray">
+                        25VA151<br>
+                        NSS<br>
+                        KC-308
+                    </td>
+
+                    <td class="gray">
+                        25VA151<br>
+                        NSS<br>
+                        KC-308
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
